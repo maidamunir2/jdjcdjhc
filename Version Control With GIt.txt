@@ -1,0 +1,31 @@
+  COMMANDS
+
+git add
+git help
+
+
+git fakecommand (-p\--patch) [<id>] [--] [<path>...]
+- or -- is used to set flags for commands
+these are also known as options or switches
+optional values are surrounded by square brackets
+place holders are surrounded by angle brackets <>
+paranthesis are used for grouping
+these are used for clarity or to disambiguate the command
+three dot are used to specify that multiple occurences are possible
+
+>git config user.name
+>git config user.email
+
+
+Locations of GIT
+
+>Working Tree--> Location on ur computer that contains the directories and files of a single commit.This is where you can view 
+and edit the files of the project preparing them for next commit
+>Staging Area--> List of files that are planned to be included in the next commit that u makae
+>Local Repository--> it contains all of the commits that have been made for the project. These commits represents the version 
+history of the project
+>Remote Reopository-->The remote repository is usually located in a data center or in the cloud , it contains the commits of
+the project ,official state of the project
+
+CREATING THE FIRST THREE GIT LOCATIONS
+git init -initialize(create) a repository
